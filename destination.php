@@ -8,7 +8,6 @@ session_start(); ?>
 </head>
 
 <body id="top">
-
   <!-- 
     - #HEADER
   -->
@@ -25,9 +24,7 @@ session_start(); ?>
           <h2 class="h1 hero-title">We have many destinations</h2>
 
           <p class="hero-text">
-            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
-            voluptatibus habitant?
-            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+          Discover a treasure trove of destinations with Ethio Tour and Travel Agency. Explore the ancient wonders of Lalibela, witness the vibrant cultures of the Omo Valley, and be mesmerized by the breathtaking landscapes of the Simien Mountains. Let us take you on an unforgettable journey through Ethiopia's extraordinary destinations.
           </p>
 
         </div>
@@ -45,9 +42,7 @@ session_start(); ?>
           <h2 class="h2 section-title">Popular destination</h2>
 
           <p class="section-text">
-            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
-            Sit ornare
-            mollitia tenetur, aptent.
+          Embark on a journey of discovery with Ethio Tour and Travel Agency as we unveil the hidden gems of Ethiopia. Immerse yourself in the mystical beauty of Axum, encounter the fascinating tribes of the Lower Omo Valley, and witness the natural splendor of the Danakil Depression. Let us guide you to extraordinary destinations that will leave you captivated and inspired.
           </p>
 
           <form action="" class="tour-search-form" style="color:black; margin-bottom: 50px;">
@@ -111,17 +106,13 @@ session_start(); ?>
 
         <?php } ?>
           </ul>
-          <button class="btn btn-primary">More destintion</button>
+          <button class="btn btn-primary" onclick="window.location.href='book.php'">Book Now</button>
 
         </div>
       </section>
 
     </article>
   </main>
-
-
-
-
 
   <!-- 
     - #FOOTER

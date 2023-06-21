@@ -19,8 +19,7 @@ session_start(); ?>
       <!-- 
         - #Introduction
       -->
-
-      <section class="hero" id="home">
+      <section class="hero" id="home" style="background-image: url('./assets/images/ethi/landscape.jpg');">
         <div class="container">
           <h2 class="h1 hero-title">Journey to explore Ethiopia</h2>
           <p class="hero-text">        
@@ -30,19 +29,17 @@ session_start(); ?>
             Experience warmth and hospitality in captivating Ethiopia.
           </p>
           <div class="btn-group">
-            <button class="btn btn-primary">Create Account Now</button>
+            <button class="btn btn-primary" onclick="window.location.href='signup.php'">Create Account Now</button>
           </div>
         </div>
       </section>
-
       <!-- 
         - #GALLERY
       -->
-
       <section class="gallery" id="gallery">
         <div class="container">
           <p class="section-subtitle">Photo Gallery</p>
-          <h2 class="h2 section-title">Photo's of our beloved places</h2>
+          <h2 class="h2 section-title">Photo's of our beloved people and culture</h2>
           <p class="section-text">
             Behold the stunning visuals of Ethiopian places captured in these photos. 
             Immerse yourself in the beauty of ancient rock-hewn churches, 
@@ -51,27 +48,27 @@ session_start(); ?>
           <ul class="gallery-list">
             <li class="gallery-item">
               <figure class="gallery-image">
-                <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
+                <img src="./assets/images/ethi/cloth1.jpg" alt="Gallery image">
               </figure>
             </li>
             <li class="gallery-item">
               <figure class="gallery-image">
-                <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
+                <img src="./assets/images/ethi/debub.jpg" alt="Gallery image">
               </figure>
             </li>
             <li class="gallery-item">
               <figure class="gallery-image">
-                <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
+                <img src="./assets/images/ethi/abat.jpg" alt="Gallery image">
               </figure>
             </li>
             <li class="gallery-item">
               <figure class="gallery-image">
-                <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
+                <img src="./assets/images/ethi/oro.jpg" alt="Gallery image">
               </figure>
             </li>
             <li class="gallery-item">
               <figure class="gallery-image">
-                <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
+                <img src="./assets/images/ethi/tmket.jpg" alt="Gallery image">
               </figure>
             </li>
           </ul>
@@ -79,9 +76,9 @@ session_start(); ?>
       </section>
 
       <!-- 
-        - #CTA
+        - #CONTACT
       -->
-      <section class="cta" id="contact">
+      <section class="cta">
         <div class="container">
           <div class="cta-content">
             <p class="section-subtitle">Call To Action</p>
@@ -94,7 +91,7 @@ session_start(); ?>
               Trust us to create your dream journey through Ethiopia's wonders.
             </p>
           </div>
-          <button class="btn btn-secondary">Contact Us !</button>
+          <button class="btn btn-secondary" onclick="window.location.href='#contact'">Contact Us !</button>
         </div>
       </section>
     </article>

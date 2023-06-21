@@ -22,9 +22,7 @@ session_start(); ?>
           <h2 class="h1 hero-title">what we offer !</h2>
 
           <p class="hero-text">
-            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
-            voluptatibus habitant?
-            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+          Our carefully crafted packages at Ethio Tour and Travel Agency offer unparalleled experiences in Ethiopia. From cultural immersions and historical explorations to thrilling adventures and wildlife encounters, our diverse range of packages caters to every traveler's interests. Discover Ethiopia's wonders with our thoughtfully curated and customizable packages.
           </p>
         </div>
       </section>
@@ -36,9 +34,7 @@ session_start(); ?>
           <p class="section-subtitle">Popular Packeges</p>
           <h2 class="h2 section-title">Checkout Our Packeges</h2>
           <p class="section-text">
-            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
-            Sit ornare
-            mollitia tenetur, aptent.
+          Explore Ethiopia's wonders with our meticulously designed packages. Whether you desire a cultural odyssey, wildlife safari, or an adrenaline-fueled adventure, we offer a variety of options to suit your preferences. Let our expertly crafted packages create lasting memories of your Ethiopian journey.
           </p>
           <ul class="package-list">
               <?php
@@ -95,7 +91,7 @@ session_start(); ?>
                   <?php echo $data['price'] ?> Birr
                     <span>/ per person</span>
                   </p>
-                  <button class="btn btn-secondary">Book Now</button>
+                  <button class="btn btn-secondary" onclick="window.location.href='book.php'">Book Now</button>
                 </div>
               </div>
             </li>
@@ -106,7 +102,6 @@ session_start(); ?>
             </li>
             <?php } ?>
           </ul>
-          <button class="btn btn-primary">View All Packages</button>
         </div>
       </section>
     </article>

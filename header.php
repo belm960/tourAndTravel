@@ -75,10 +75,21 @@
             </nav>
             <?php if (isset($_SESSION['loggedin'])) { ?>
                 <button class="btn btn-primary"><?php $username = $_SESSION['name']; echo $username;?></button>
-                <button class="btn btn-primary" id="logout">LogOut</button>
+                <button class="btn btn-primary" id="logout" onclick="window.location.href='logout.php'">LogOut</button>
             <?php } else { ?>
             <button class="btn btn-primary" id="signin">Sign In</button>
             <?php } ?>
         </div>
     </div>
 </header>
+
+    <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

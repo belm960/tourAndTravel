@@ -4,9 +4,7 @@
           <p class="section-subtitle">Here it is!</p>
           <h2 class="h2 section-title">My Book Lists</h2>
           <p class="section-text">
-            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
-            Sit ornare
-            mollitia tenetur, aptent.
+          With Ethio Tour and Travel Agency, your dream destinations are just a book away. Explore our diverse selection of itineraries and secure your spot on our exclusive list of extraordinary journeys. Start your unforgettable adventure today.
           </p>
 
           <div class="container">

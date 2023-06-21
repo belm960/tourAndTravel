@@ -44,9 +44,20 @@ window.addEventListener("scroll", function () {
   }
 
 });
+
+
+// the sign in button
 var signin = document.getElementById("signin");
 
 signin.addEventListener("click", function (){
-  window.location.href="login.html"
+  window.location.href="login.php";
+
 });
+
+
+// the logout button
+function logout(){
+  window.location.href="logout.php";
+  window.alert("logout");
+}
 

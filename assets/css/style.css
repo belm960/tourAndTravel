@@ -378,11 +378,11 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/hero-banner.jpg");
+  background-image: url("../images/ethi/landscape.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: hsla(0, 0%, 0%, 0.7);
+  background-color: hsla(0, 0%, 0%, 0.4);
   background-blend-mode: overlay;
   display: grid;
   place-items: center;

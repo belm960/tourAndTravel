@@ -5,7 +5,7 @@ html {
     margin:0;
     padding:0;
     font-family: sans-serif;
-    background-image: url("assets/images/hero-banner.jpg");
+    background-image: url('./assets/images/ethi/minilik.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

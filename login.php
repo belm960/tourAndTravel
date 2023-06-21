@@ -43,7 +43,7 @@ mysqli_close($conn);
     <title>Log In</title>
     <link rel="stylesheet" href="login.css">
 </head>
-<body>
+<body style="background-image: url('./assets/images/ethi/minilik.jpg');">
     
 <div class="login-box">
     <h2>Login</h2>
@@ -62,6 +62,22 @@ mysqli_close($conn);
         <span></span>
         <span></span>
         <input type="submit" value="Sign In">
+      </a>
+        <br>
+      <a style="margin-top: 20px;" href="index.php">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+            Home
+      </a>
+
+      <a style="margin-left: 30px;" href="signup.php">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Sign Up
       </a>
       <?php if (isset($error_message)): ?>
                 <span class="error"><?php echo $error_message; ?></span>
