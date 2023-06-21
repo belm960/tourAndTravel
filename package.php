@@ -50,7 +50,7 @@ session_start(); ?>
             <li>
               <div class="package-card">
                 <figure class="card-banner">
-                  <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                  <img src="./images/<?php echo $data['image_url'] ?>" alt="Package Image" loading="lazy">
                 </figure>
                 <div class="card-content">
                   <h3 class="h3 card-title"><?php echo $data['name'] ?></h3>
